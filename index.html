@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="fonts/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>JS-2</title>
+       
+    </head>
+
+    <body>
+
+      <ul class="list-unstyled">​
+
+        <li>Home</li>​
+
+        <li>About</li>​
+
+        <li>Photo Gallery</li>​
+
+        <li>Project</li>​
+
+        <li>Webmail</li>​
+
+        <li>Company Profile</li>​
+
+        <li>Contact Us</li>​
+
+        <li>Join Us!</li>
+
+</ul> 
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script>
+
+        $(document).ready(function(){
+          $("li:odd").addClass("odd");
+          $("li:even").addClass("even");
+          $("li:first").addClass("first");
+          $("li:last").addClass("last");
+          $("li:eq(3)").addClass("nth");
+
+
+        });
+</script> 
+    </body>
+</html>
+
